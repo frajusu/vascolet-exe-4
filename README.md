@@ -53,3 +53,9 @@ No se incluye una imagen de Microsoft Windows.
 
 Vascolet y sus recursos pertenecen a sus autores originales. La licencia del
 emulador no cambia la licencia de los juegos.
+
+## Paquete dividido
+
+Para publicar mediante la API, el ZIP se guarda en `site/game.zip.001` y
+`site/game.zip.002`. `build.py` los concatena, sin recomprimir ni alterar el
+contenido, como `dist/game.zip`. El visitante descarga un único ZIP normal.
