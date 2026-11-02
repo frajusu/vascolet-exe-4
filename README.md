@@ -24,6 +24,14 @@ en el botón ☰. Los botones 1–4 cambian de Vascolet.
 La emulación sigue teniendo coste. No se promete arranque instantáneo ni 60 FPS.
 Ver [mediciones e investigación](docs/PERFORMANCE.md).
 
+## Controles en teléfonos
+
+En pantallas táctiles aparecen flechas, **Saltar (Z)**, **Disparar (X)**,
+**Enter** y **Esc**. Doble toque en izquierda/derecha para correr; abajo permite
+agacharse. Admiten varios dedos a la vez y diagonales en la cruceta. Tocá el
+juego para usar sus menús. El menú ☰ permite activar u ocultar los controles;
+en computadoras con ratón permanecen ocultos por defecto.
+
 ## Partidas
 
 Los archivos escritos por el juego se conservan mediante IDBFS / IndexedDB,
