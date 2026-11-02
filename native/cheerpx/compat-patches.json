@@ -1,0 +1,2711 @@
+[
+  {
+    "module": "",
+    "address": 139586461,
+    "original": "0fe71c0b",
+    "replacement": "0f7f1c0b",
+    "instruction": "movntq qword ptr [ebx + ecx], mm3"
+  },
+  {
+    "module": "",
+    "address": 139587252,
+    "original": "0fe70483",
+    "replacement": "0f7f0483",
+    "instruction": "movntq qword ptr [ebx + eax*4], mm0"
+  },
+  {
+    "module": "",
+    "address": 139587256,
+    "original": "0fe75c8308",
+    "replacement": "0f7f5c8308",
+    "instruction": "movntq qword ptr [ebx + eax*4 + 8], mm3"
+  },
+  {
+    "module": "",
+    "address": 139587261,
+    "original": "0fe77c8310",
+    "replacement": "0f7f7c8310",
+    "instruction": "movntq qword ptr [ebx + eax*4 + 0x10], mm7"
+  },
+  {
+    "module": "",
+    "address": 139587266,
+    "original": "0fe7548318",
+    "replacement": "0f7f548318",
+    "instruction": "movntq qword ptr [ebx + eax*4 + 0x18], mm2"
+  },
+  {
+    "module": "",
+    "address": 139587772,
+    "original": "0fe70483",
+    "replacement": "0f7f0483",
+    "instruction": "movntq qword ptr [ebx + eax*4], mm0"
+  },
+  {
+    "module": "",
+    "address": 139587776,
+    "original": "0fe7548308",
+    "replacement": "0f7f548308",
+    "instruction": "movntq qword ptr [ebx + eax*4 + 8], mm2"
+  },
+  {
+    "module": "",
+    "address": 139587781,
+    "original": "0fe74c8310",
+    "replacement": "0f7f4c8310",
+    "instruction": "movntq qword ptr [ebx + eax*4 + 0x10], mm1"
+  },
+  {
+    "module": "",
+    "address": 139587786,
+    "original": "0fe75c8318",
+    "replacement": "0f7f5c8318",
+    "instruction": "movntq qword ptr [ebx + eax*4 + 0x18], mm3"
+  },
+  {
+    "module": "",
+    "address": 139588241,
+    "original": "0fe70483",
+    "replacement": "0f7f0483",
+    "instruction": "movntq qword ptr [ebx + eax*4], mm0"
+  },
+  {
+    "module": "",
+    "address": 139588245,
+    "original": "0fe7548308",
+    "replacement": "0f7f548308",
+    "instruction": "movntq qword ptr [ebx + eax*4 + 8], mm2"
+  },
+  {
+    "module": "",
+    "address": 139588250,
+    "original": "0fe77c8310",
+    "replacement": "0f7f7c8310",
+    "instruction": "movntq qword ptr [ebx + eax*4 + 0x10], mm7"
+  },
+  {
+    "module": "",
+    "address": 139588255,
+    "original": "0fe75c8318",
+    "replacement": "0f7f5c8318",
+    "instruction": "movntq qword ptr [ebx + eax*4 + 0x18], mm3"
+  },
+  {
+    "module": "",
+    "address": 139588576,
+    "original": "0fe70483",
+    "replacement": "0f7f0483",
+    "instruction": "movntq qword ptr [ebx + eax*4], mm0"
+  },
+  {
+    "module": "",
+    "address": 139588580,
+    "original": "0fe7548308",
+    "replacement": "0f7f548308",
+    "instruction": "movntq qword ptr [ebx + eax*4 + 8], mm2"
+  },
+  {
+    "module": "",
+    "address": 139588585,
+    "original": "0fe74c8310",
+    "replacement": "0f7f4c8310",
+    "instruction": "movntq qword ptr [ebx + eax*4 + 0x10], mm1"
+  },
+  {
+    "module": "",
+    "address": 139588590,
+    "original": "0fe75c8318",
+    "replacement": "0f7f5c8318",
+    "instruction": "movntq qword ptr [ebx + eax*4 + 0x18], mm3"
+  },
+  {
+    "module": "",
+    "address": 139589180,
+    "original": "0fe71443",
+    "replacement": "0f7f1443",
+    "instruction": "movntq qword ptr [ebx + eax*2], mm2"
+  },
+  {
+    "module": "",
+    "address": 139589184,
+    "original": "0fe74c4308",
+    "replacement": "0f7f4c4308",
+    "instruction": "movntq qword ptr [ebx + eax*2 + 8], mm1"
+  },
+  {
+    "module": "",
+    "address": 139589584,
+    "original": "0fe71443",
+    "replacement": "0f7f1443",
+    "instruction": "movntq qword ptr [ebx + eax*2], mm2"
+  },
+  {
+    "module": "",
+    "address": 139589588,
+    "original": "0fe74c4308",
+    "replacement": "0f7f4c4308",
+    "instruction": "movntq qword ptr [ebx + eax*2 + 8], mm1"
+  },
+  {
+    "module": "",
+    "address": 139590192,
+    "original": "0fe71443",
+    "replacement": "0f7f1443",
+    "instruction": "movntq qword ptr [ebx + eax*2], mm2"
+  },
+  {
+    "module": "",
+    "address": 139590196,
+    "original": "0fe74c4308",
+    "replacement": "0f7f4c4308",
+    "instruction": "movntq qword ptr [ebx + eax*2 + 8], mm1"
+  },
+  {
+    "module": "",
+    "address": 139590612,
+    "original": "0fe71443",
+    "replacement": "0f7f1443",
+    "instruction": "movntq qword ptr [ebx + eax*2], mm2"
+  },
+  {
+    "module": "",
+    "address": 139590616,
+    "original": "0fe74c4308",
+    "replacement": "0f7f4c4308",
+    "instruction": "movntq qword ptr [ebx + eax*2 + 8], mm1"
+  },
+  {
+    "module": "",
+    "address": 139591194,
+    "original": "0fe731",
+    "replacement": "0f7f31",
+    "instruction": "movntq qword ptr [ecx], mm6"
+  },
+  {
+    "module": "",
+    "address": 139591232,
+    "original": "0fe77108",
+    "replacement": "0f7f7108",
+    "instruction": "movntq qword ptr [ecx + 8], mm6"
+  },
+  {
+    "module": "",
+    "address": 139591267,
+    "original": "0fe77110",
+    "replacement": "0f7f7110",
+    "instruction": "movntq qword ptr [ecx + 0x10], mm6"
+  },
+  {
+    "module": "",
+    "address": 139591662,
+    "original": "0fe731",
+    "replacement": "0f7f31",
+    "instruction": "movntq qword ptr [ecx], mm6"
+  },
+  {
+    "module": "",
+    "address": 139591700,
+    "original": "0fe77108",
+    "replacement": "0f7f7108",
+    "instruction": "movntq qword ptr [ecx + 8], mm6"
+  },
+  {
+    "module": "",
+    "address": 139591735,
+    "original": "0fe77110",
+    "replacement": "0f7f7110",
+    "instruction": "movntq qword ptr [ecx + 0x10], mm6"
+  },
+  {
+    "module": "",
+    "address": 139592195,
+    "original": "0fe70c43",
+    "replacement": "0f7f0c43",
+    "instruction": "movntq qword ptr [ebx + eax*2], mm1"
+  },
+  {
+    "module": "",
+    "address": 139592199,
+    "original": "0fe77c4308",
+    "replacement": "0f7f7c4308",
+    "instruction": "movntq qword ptr [ebx + eax*2 + 8], mm7"
+  },
+  {
+    "module": "",
+    "address": 139592471,
+    "original": "0fe70c43",
+    "replacement": "0f7f0c43",
+    "instruction": "movntq qword ptr [ebx + eax*2], mm1"
+  },
+  {
+    "module": "",
+    "address": 139592475,
+    "original": "0fe77c4308",
+    "replacement": "0f7f7c4308",
+    "instruction": "movntq qword ptr [ebx + eax*2 + 8], mm7"
+  },
+  {
+    "module": "",
+    "address": 139592975,
+    "original": "0fe704ab",
+    "replacement": "0f7f04ab",
+    "instruction": "movntq qword ptr [ebx + ebp*4], mm0"
+  },
+  {
+    "module": "",
+    "address": 139592979,
+    "original": "0fe754ab08",
+    "replacement": "0f7f54ab08",
+    "instruction": "movntq qword ptr [ebx + ebp*4 + 8], mm2"
+  },
+  {
+    "module": "",
+    "address": 139592984,
+    "original": "0fe77cab10",
+    "replacement": "0f7f7cab10",
+    "instruction": "movntq qword ptr [ebx + ebp*4 + 0x10], mm7"
+  },
+  {
+    "module": "",
+    "address": 139592989,
+    "original": "0fe75cab18",
+    "replacement": "0f7f5cab18",
+    "instruction": "movntq qword ptr [ebx + ebp*4 + 0x18], mm3"
+  },
+  {
+    "module": "",
+    "address": 139593321,
+    "original": "0fe704ab",
+    "replacement": "0f7f04ab",
+    "instruction": "movntq qword ptr [ebx + ebp*4], mm0"
+  },
+  {
+    "module": "",
+    "address": 139593325,
+    "original": "0fe754ab08",
+    "replacement": "0f7f54ab08",
+    "instruction": "movntq qword ptr [ebx + ebp*4 + 8], mm2"
+  },
+  {
+    "module": "",
+    "address": 139593330,
+    "original": "0fe74cab10",
+    "replacement": "0f7f4cab10",
+    "instruction": "movntq qword ptr [ebx + ebp*4 + 0x10], mm1"
+  },
+  {
+    "module": "",
+    "address": 139593335,
+    "original": "0fe75cab18",
+    "replacement": "0f7f5cab18",
+    "instruction": "movntq qword ptr [ebx + ebp*4 + 0x18], mm3"
+  },
+  {
+    "module": "",
+    "address": 139593698,
+    "original": "0fe733",
+    "replacement": "0f7f33",
+    "instruction": "movntq qword ptr [ebx], mm6"
+  },
+  {
+    "module": "",
+    "address": 139593736,
+    "original": "0fe77308",
+    "replacement": "0f7f7308",
+    "instruction": "movntq qword ptr [ebx + 8], mm6"
+  },
+  {
+    "module": "",
+    "address": 139593771,
+    "original": "0fe77310",
+    "replacement": "0f7f7310",
+    "instruction": "movntq qword ptr [ebx + 0x10], mm6"
+  },
+  {
+    "module": "",
+    "address": 139594173,
+    "original": "0fe7146b",
+    "replacement": "0f7f146b",
+    "instruction": "movntq qword ptr [ebx + ebp*2], mm2"
+  },
+  {
+    "module": "",
+    "address": 139594177,
+    "original": "0fe74c6b08",
+    "replacement": "0f7f4c6b08",
+    "instruction": "movntq qword ptr [ebx + ebp*2 + 8], mm1"
+  },
+  {
+    "module": "",
+    "address": 139594569,
+    "original": "0fe7146b",
+    "replacement": "0f7f146b",
+    "instruction": "movntq qword ptr [ebx + ebp*2], mm2"
+  },
+  {
+    "module": "",
+    "address": 139594573,
+    "original": "0fe74c6b08",
+    "replacement": "0f7f4c6b08",
+    "instruction": "movntq qword ptr [ebx + ebp*2 + 8], mm1"
+  },
+  {
+    "module": "",
+    "address": 139594848,
+    "original": "0fe70c6b",
+    "replacement": "0f7f0c6b",
+    "instruction": "movntq qword ptr [ebx + ebp*2], mm1"
+  },
+  {
+    "module": "",
+    "address": 139594852,
+    "original": "0fe77c6b08",
+    "replacement": "0f7f7c6b08",
+    "instruction": "movntq qword ptr [ebx + ebp*2 + 8], mm7"
+  },
+  {
+    "module": "",
+    "address": 139595196,
+    "original": "0fe704ab",
+    "replacement": "0f7f04ab",
+    "instruction": "movntq qword ptr [ebx + ebp*4], mm0"
+  },
+  {
+    "module": "",
+    "address": 139595200,
+    "original": "0fe754ab08",
+    "replacement": "0f7f54ab08",
+    "instruction": "movntq qword ptr [ebx + ebp*4 + 8], mm2"
+  },
+  {
+    "module": "",
+    "address": 139595205,
+    "original": "0fe74cab10",
+    "replacement": "0f7f4cab10",
+    "instruction": "movntq qword ptr [ebx + ebp*4 + 0x10], mm1"
+  },
+  {
+    "module": "",
+    "address": 139595210,
+    "original": "0fe75cab18",
+    "replacement": "0f7f5cab18",
+    "instruction": "movntq qword ptr [ebx + ebp*4 + 0x18], mm3"
+  },
+  {
+    "module": "",
+    "address": 139595514,
+    "original": "0fe704ab",
+    "replacement": "0f7f04ab",
+    "instruction": "movntq qword ptr [ebx + ebp*4], mm0"
+  },
+  {
+    "module": "",
+    "address": 139595518,
+    "original": "0fe754ab08",
+    "replacement": "0f7f54ab08",
+    "instruction": "movntq qword ptr [ebx + ebp*4 + 8], mm2"
+  },
+  {
+    "module": "",
+    "address": 139595523,
+    "original": "0fe74cab10",
+    "replacement": "0f7f4cab10",
+    "instruction": "movntq qword ptr [ebx + ebp*4 + 0x10], mm1"
+  },
+  {
+    "module": "",
+    "address": 139595528,
+    "original": "0fe75cab18",
+    "replacement": "0f7f5cab18",
+    "instruction": "movntq qword ptr [ebx + ebp*4 + 0x18], mm3"
+  },
+  {
+    "module": "",
+    "address": 139595787,
+    "original": "0fe704ab",
+    "replacement": "0f7f04ab",
+    "instruction": "movntq qword ptr [ebx + ebp*4], mm0"
+  },
+  {
+    "module": "",
+    "address": 139595791,
+    "original": "0fe754ab08",
+    "replacement": "0f7f54ab08",
+    "instruction": "movntq qword ptr [ebx + ebp*4 + 8], mm2"
+  },
+  {
+    "module": "",
+    "address": 139595796,
+    "original": "0fe74cab10",
+    "replacement": "0f7f4cab10",
+    "instruction": "movntq qword ptr [ebx + ebp*4 + 0x10], mm1"
+  },
+  {
+    "module": "",
+    "address": 139595801,
+    "original": "0fe75cab18",
+    "replacement": "0f7f5cab18",
+    "instruction": "movntq qword ptr [ebx + ebp*4 + 0x18], mm3"
+  },
+  {
+    "module": "",
+    "address": 139596057,
+    "original": "0fe704ab",
+    "replacement": "0f7f04ab",
+    "instruction": "movntq qword ptr [ebx + ebp*4], mm0"
+  },
+  {
+    "module": "",
+    "address": 139596061,
+    "original": "0fe754ab08",
+    "replacement": "0f7f54ab08",
+    "instruction": "movntq qword ptr [ebx + ebp*4 + 8], mm2"
+  },
+  {
+    "module": "",
+    "address": 139596066,
+    "original": "0fe74cab10",
+    "replacement": "0f7f4cab10",
+    "instruction": "movntq qword ptr [ebx + ebp*4 + 0x10], mm1"
+  },
+  {
+    "module": "",
+    "address": 139596071,
+    "original": "0fe75cab18",
+    "replacement": "0f7f5cab18",
+    "instruction": "movntq qword ptr [ebx + ebp*4 + 0x18], mm3"
+  },
+  {
+    "module": "",
+    "address": 139596372,
+    "original": "0fe733",
+    "replacement": "0f7f33",
+    "instruction": "movntq qword ptr [ebx], mm6"
+  },
+  {
+    "module": "",
+    "address": 139596410,
+    "original": "0fe77308",
+    "replacement": "0f7f7308",
+    "instruction": "movntq qword ptr [ebx + 8], mm6"
+  },
+  {
+    "module": "",
+    "address": 139596445,
+    "original": "0fe77310",
+    "replacement": "0f7f7310",
+    "instruction": "movntq qword ptr [ebx + 0x10], mm6"
+  },
+  {
+    "module": "",
+    "address": 139596722,
+    "original": "0fe733",
+    "replacement": "0f7f33",
+    "instruction": "movntq qword ptr [ebx], mm6"
+  },
+  {
+    "module": "",
+    "address": 139596760,
+    "original": "0fe77308",
+    "replacement": "0f7f7308",
+    "instruction": "movntq qword ptr [ebx + 8], mm6"
+  },
+  {
+    "module": "",
+    "address": 139596795,
+    "original": "0fe77310",
+    "replacement": "0f7f7310",
+    "instruction": "movntq qword ptr [ebx + 0x10], mm6"
+  },
+  {
+    "module": "",
+    "address": 139597135,
+    "original": "0fe7146b",
+    "replacement": "0f7f146b",
+    "instruction": "movntq qword ptr [ebx + ebp*2], mm2"
+  },
+  {
+    "module": "",
+    "address": 139597139,
+    "original": "0fe74c6b08",
+    "replacement": "0f7f4c6b08",
+    "instruction": "movntq qword ptr [ebx + ebp*2 + 8], mm1"
+  },
+  {
+    "module": "",
+    "address": 139597453,
+    "original": "0fe7146b",
+    "replacement": "0f7f146b",
+    "instruction": "movntq qword ptr [ebx + ebp*2], mm2"
+  },
+  {
+    "module": "",
+    "address": 139597457,
+    "original": "0fe74c6b08",
+    "replacement": "0f7f4c6b08",
+    "instruction": "movntq qword ptr [ebx + ebp*2 + 8], mm1"
+  },
+  {
+    "module": "",
+    "address": 139597787,
+    "original": "0fe7146b",
+    "replacement": "0f7f146b",
+    "instruction": "movntq qword ptr [ebx + ebp*2], mm2"
+  },
+  {
+    "module": "",
+    "address": 139597791,
+    "original": "0fe74c6b08",
+    "replacement": "0f7f4c6b08",
+    "instruction": "movntq qword ptr [ebx + ebp*2 + 8], mm1"
+  },
+  {
+    "module": "",
+    "address": 139598089,
+    "original": "0fe7146b",
+    "replacement": "0f7f146b",
+    "instruction": "movntq qword ptr [ebx + ebp*2], mm2"
+  },
+  {
+    "module": "",
+    "address": 139598093,
+    "original": "0fe74c6b08",
+    "replacement": "0f7f4c6b08",
+    "instruction": "movntq qword ptr [ebx + ebp*2 + 8], mm1"
+  },
+  {
+    "module": "",
+    "address": 139598274,
+    "original": "0fe70c6b",
+    "replacement": "0f7f0c6b",
+    "instruction": "movntq qword ptr [ebx + ebp*2], mm1"
+  },
+  {
+    "module": "",
+    "address": 139598278,
+    "original": "0fe77c6b08",
+    "replacement": "0f7f7c6b08",
+    "instruction": "movntq qword ptr [ebx + ebp*2 + 8], mm7"
+  },
+  {
+    "module": "",
+    "address": 139598432,
+    "original": "0fe70c6b",
+    "replacement": "0f7f0c6b",
+    "instruction": "movntq qword ptr [ebx + ebp*2], mm1"
+  },
+  {
+    "module": "",
+    "address": 139598436,
+    "original": "0fe77c6b08",
+    "replacement": "0f7f7c6b08",
+    "instruction": "movntq qword ptr [ebx + ebp*2 + 8], mm7"
+  },
+  {
+    "module": "",
+    "address": 139628365,
+    "original": "0fe71c0b",
+    "replacement": "0f7f1c0b",
+    "instruction": "movntq qword ptr [ebx + ecx], mm3"
+  },
+  {
+    "module": "",
+    "address": 139628551,
+    "original": "660fe71c0b",
+    "replacement": "660f7f1c0b",
+    "instruction": "movntdq xmmword ptr [ebx + ecx], xmm3"
+  },
+  {
+    "module": "",
+    "address": 139801717,
+    "original": "0fe703",
+    "replacement": "0f7f03",
+    "instruction": "movntq qword ptr [ebx], mm0"
+  },
+  {
+    "module": "",
+    "address": 139801720,
+    "original": "0fe74b08",
+    "replacement": "0f7f4b08",
+    "instruction": "movntq qword ptr [ebx + 8], mm1"
+  },
+  {
+    "module": "",
+    "address": 139801724,
+    "original": "0fe75310",
+    "replacement": "0f7f5310",
+    "instruction": "movntq qword ptr [ebx + 0x10], mm2"
+  },
+  {
+    "module": "",
+    "address": 139801728,
+    "original": "0fe75b18",
+    "replacement": "0f7f5b18",
+    "instruction": "movntq qword ptr [ebx + 0x18], mm3"
+  },
+  {
+    "module": "",
+    "address": 139802009,
+    "original": "0fe701",
+    "replacement": "0f7f01",
+    "instruction": "movntq qword ptr [ecx], mm0"
+  },
+  {
+    "module": "",
+    "address": 139802012,
+    "original": "0fe74908",
+    "replacement": "0f7f4908",
+    "instruction": "movntq qword ptr [ecx + 8], mm1"
+  },
+  {
+    "module": "",
+    "address": 139802016,
+    "original": "0fe76110",
+    "replacement": "0f7f6110",
+    "instruction": "movntq qword ptr [ecx + 0x10], mm4"
+  },
+  {
+    "module": "",
+    "address": 139802163,
+    "original": "0fe703",
+    "replacement": "0f7f03",
+    "instruction": "movntq qword ptr [ebx], mm0"
+  },
+  {
+    "module": "",
+    "address": 139802166,
+    "original": "0fe75308",
+    "replacement": "0f7f5308",
+    "instruction": "movntq qword ptr [ebx + 8], mm2"
+  },
+  {
+    "module": "",
+    "address": 139802347,
+    "original": "0fe703",
+    "replacement": "0f7f03",
+    "instruction": "movntq qword ptr [ebx], mm0"
+  },
+  {
+    "module": "",
+    "address": 139802350,
+    "original": "0fe75308",
+    "replacement": "0f7f5308",
+    "instruction": "movntq qword ptr [ebx + 8], mm2"
+  },
+  {
+    "module": "",
+    "address": 139802556,
+    "original": "0fe703",
+    "replacement": "0f7f03",
+    "instruction": "movntq qword ptr [ebx], mm0"
+  },
+  {
+    "module": "",
+    "address": 139802788,
+    "original": "0fe706",
+    "replacement": "0f7f06",
+    "instruction": "movntq qword ptr [esi], mm0"
+  },
+  {
+    "module": "",
+    "address": 139802988,
+    "original": "0fe703",
+    "replacement": "0f7f03",
+    "instruction": "movntq qword ptr [ebx], mm0"
+  },
+  {
+    "module": "",
+    "address": 139803220,
+    "original": "0fe706",
+    "replacement": "0f7f06",
+    "instruction": "movntq qword ptr [esi], mm0"
+  },
+  {
+    "module": "",
+    "address": 139803460,
+    "original": "0fe706",
+    "replacement": "0f7f06",
+    "instruction": "movntq qword ptr [esi], mm0"
+  },
+  {
+    "module": "",
+    "address": 139803716,
+    "original": "0fe706",
+    "replacement": "0f7f06",
+    "instruction": "movntq qword ptr [esi], mm0"
+  },
+  {
+    "module": "",
+    "address": 139803972,
+    "original": "0fe706",
+    "replacement": "0f7f06",
+    "instruction": "movntq qword ptr [esi], mm0"
+  },
+  {
+    "module": "",
+    "address": 139804228,
+    "original": "0fe706",
+    "replacement": "0f7f06",
+    "instruction": "movntq qword ptr [esi], mm0"
+  },
+  {
+    "module": "",
+    "address": 139804808,
+    "original": "0fe706",
+    "replacement": "0f7f06",
+    "instruction": "movntq qword ptr [esi], mm0"
+  },
+  {
+    "module": "",
+    "address": 139804811,
+    "original": "0fe74e08",
+    "replacement": "0f7f4e08",
+    "instruction": "movntq qword ptr [esi + 8], mm1"
+  },
+  {
+    "module": "",
+    "address": 139804815,
+    "original": "0fe76610",
+    "replacement": "0f7f6610",
+    "instruction": "movntq qword ptr [esi + 0x10], mm4"
+  },
+  {
+    "module": "",
+    "address": 139805408,
+    "original": "0fe706",
+    "replacement": "0f7f06",
+    "instruction": "movntq qword ptr [esi], mm0"
+  },
+  {
+    "module": "",
+    "address": 139805411,
+    "original": "0fe74e08",
+    "replacement": "0f7f4e08",
+    "instruction": "movntq qword ptr [esi + 8], mm1"
+  },
+  {
+    "module": "",
+    "address": 139805415,
+    "original": "0fe76610",
+    "replacement": "0f7f6610",
+    "instruction": "movntq qword ptr [esi + 0x10], mm4"
+  },
+  {
+    "module": "",
+    "address": 139805651,
+    "original": "0fe703",
+    "replacement": "0f7f03",
+    "instruction": "movntq qword ptr [ebx], mm0"
+  },
+  {
+    "module": "",
+    "address": 139805654,
+    "original": "0fe75b08",
+    "replacement": "0f7f5b08",
+    "instruction": "movntq qword ptr [ebx + 8], mm3"
+  },
+  {
+    "module": "",
+    "address": 139805895,
+    "original": "0fe703",
+    "replacement": "0f7f03",
+    "instruction": "movntq qword ptr [ebx], mm0"
+  },
+  {
+    "module": "",
+    "address": 139805898,
+    "original": "0fe75b08",
+    "replacement": "0f7f5b08",
+    "instruction": "movntq qword ptr [ebx + 8], mm3"
+  },
+  {
+    "module": "",
+    "address": 139806104,
+    "original": "0fe70430",
+    "replacement": "0f7f0430",
+    "instruction": "movntq qword ptr [eax + esi], mm0"
+  },
+  {
+    "module": "",
+    "address": 139806108,
+    "original": "0fe74c3008",
+    "replacement": "0f7f4c3008",
+    "instruction": "movntq qword ptr [eax + esi + 8], mm1"
+  },
+  {
+    "module": "",
+    "address": 139806314,
+    "original": "0fe70c06",
+    "replacement": "0f7f0c06",
+    "instruction": "movntq qword ptr [esi + eax], mm1"
+  },
+  {
+    "module": "",
+    "address": 139806348,
+    "original": "0fe74c0608",
+    "replacement": "0f7f4c0608",
+    "instruction": "movntq qword ptr [esi + eax + 8], mm1"
+  },
+  {
+    "module": "",
+    "address": 139806378,
+    "original": "0fe74c0610",
+    "replacement": "0f7f4c0610",
+    "instruction": "movntq qword ptr [esi + eax + 0x10], mm1"
+  },
+  {
+    "module": "",
+    "address": 139806635,
+    "original": "0fe71c82",
+    "replacement": "0f7f1c82",
+    "instruction": "movntq qword ptr [edx + eax*4], mm3"
+  },
+  {
+    "module": "",
+    "address": 139806639,
+    "original": "0fe7648208",
+    "replacement": "0f7f648208",
+    "instruction": "movntq qword ptr [edx + eax*4 + 8], mm4"
+  },
+  {
+    "module": "",
+    "address": 139806644,
+    "original": "0fe76c8210",
+    "replacement": "0f7f6c8210",
+    "instruction": "movntq qword ptr [edx + eax*4 + 0x10], mm5"
+  },
+  {
+    "module": "",
+    "address": 139806649,
+    "original": "0fe7748218",
+    "replacement": "0f7f748218",
+    "instruction": "movntq qword ptr [edx + eax*4 + 0x18], mm6"
+  },
+  {
+    "module": "",
+    "address": 139806811,
+    "original": "0fe70482",
+    "replacement": "0f7f0482",
+    "instruction": "movntq qword ptr [edx + eax*4], mm0"
+  },
+  {
+    "module": "",
+    "address": 139806815,
+    "original": "0fe7648208",
+    "replacement": "0f7f648208",
+    "instruction": "movntq qword ptr [edx + eax*4 + 8], mm4"
+  },
+  {
+    "module": "",
+    "address": 139806820,
+    "original": "0fe7548210",
+    "replacement": "0f7f548210",
+    "instruction": "movntq qword ptr [edx + eax*4 + 0x10], mm2"
+  },
+  {
+    "module": "",
+    "address": 139806825,
+    "original": "0fe7748218",
+    "replacement": "0f7f748218",
+    "instruction": "movntq qword ptr [edx + eax*4 + 0x18], mm6"
+  },
+  {
+    "module": "",
+    "address": 139807016,
+    "original": "0fe7544500",
+    "replacement": "0f7f544500",
+    "instruction": "movntq qword ptr [ebp + eax*2], mm2"
+  },
+  {
+    "module": "",
+    "address": 139807057,
+    "original": "0fe75c4508",
+    "replacement": "0f7f5c4508",
+    "instruction": "movntq qword ptr [ebp + eax*2 + 8], mm3"
+  },
+  {
+    "module": "",
+    "address": 139807088,
+    "original": "0fe70403",
+    "replacement": "0f7f0403",
+    "instruction": "movntq qword ptr [ebx + eax], mm0"
+  },
+  {
+    "module": "",
+    "address": 139807092,
+    "original": "0fe71406",
+    "replacement": "0f7f1406",
+    "instruction": "movntq qword ptr [esi + eax], mm2"
+  },
+  {
+    "module": "",
+    "address": 139807162,
+    "original": "0fe70442",
+    "replacement": "0f7f0442",
+    "instruction": "movntq qword ptr [edx + eax*2], mm0"
+  },
+  {
+    "module": "",
+    "address": 139807166,
+    "original": "0fe7544208",
+    "replacement": "0f7f544208",
+    "instruction": "movntq qword ptr [edx + eax*2 + 8], mm2"
+  },
+  {
+    "module": "",
+    "address": 139807663,
+    "original": "0fe72c42",
+    "replacement": "0f7f2c42",
+    "instruction": "movntq qword ptr [edx + eax*2], mm5"
+  },
+  {
+    "module": "",
+    "address": 139807667,
+    "original": "0fe77c4208",
+    "replacement": "0f7f7c4208",
+    "instruction": "movntq qword ptr [edx + eax*2 + 8], mm7"
+  },
+  {
+    "module": "",
+    "address": 139807672,
+    "original": "0fe72443",
+    "replacement": "0f7f2443",
+    "instruction": "movntq qword ptr [ebx + eax*2], mm4"
+  },
+  {
+    "module": "",
+    "address": 139807676,
+    "original": "0fe7744308",
+    "replacement": "0f7f744308",
+    "instruction": "movntq qword ptr [ebx + eax*2 + 8], mm6"
+  },
+  {
+    "module": "",
+    "address": 139808239,
+    "original": "0fe7444500",
+    "replacement": "0f7f444500",
+    "instruction": "movntq qword ptr [ebp + eax*2], mm0"
+  },
+  {
+    "module": "",
+    "address": 139808244,
+    "original": "0fe74c4508",
+    "replacement": "0f7f4c4508",
+    "instruction": "movntq qword ptr [ebp + eax*2 + 8], mm1"
+  },
+  {
+    "module": "",
+    "address": 139808249,
+    "original": "0fe7544510",
+    "replacement": "0f7f544510",
+    "instruction": "movntq qword ptr [ebp + eax*2 + 0x10], mm2"
+  },
+  {
+    "module": "",
+    "address": 139808254,
+    "original": "0fe75c4518",
+    "replacement": "0f7f5c4518",
+    "instruction": "movntq qword ptr [ebp + eax*2 + 0x18], mm3"
+  },
+  {
+    "module": "",
+    "address": 139808572,
+    "original": "0fe7045e",
+    "replacement": "0f7f045e",
+    "instruction": "movntq qword ptr [esi + ebx*2], mm0"
+  },
+  {
+    "module": "",
+    "address": 139808576,
+    "original": "0fe74c5e08",
+    "replacement": "0f7f4c5e08",
+    "instruction": "movntq qword ptr [esi + ebx*2 + 8], mm1"
+  },
+  {
+    "module": "",
+    "address": 139808581,
+    "original": "0fe7545e10",
+    "replacement": "0f7f545e10",
+    "instruction": "movntq qword ptr [esi + ebx*2 + 0x10], mm2"
+  },
+  {
+    "module": "",
+    "address": 139808586,
+    "original": "0fe75c5e18",
+    "replacement": "0f7f5c5e18",
+    "instruction": "movntq qword ptr [esi + ebx*2 + 0x18], mm3"
+  },
+  {
+    "module": "",
+    "address": 139808591,
+    "original": "0fe7645e20",
+    "replacement": "0f7f645e20",
+    "instruction": "movntq qword ptr [esi + ebx*2 + 0x20], mm4"
+  },
+  {
+    "module": "",
+    "address": 139808596,
+    "original": "0fe76c5e28",
+    "replacement": "0f7f6c5e28",
+    "instruction": "movntq qword ptr [esi + ebx*2 + 0x28], mm5"
+  },
+  {
+    "module": "",
+    "address": 139808601,
+    "original": "0fe7745e30",
+    "replacement": "0f7f745e30",
+    "instruction": "movntq qword ptr [esi + ebx*2 + 0x30], mm6"
+  },
+  {
+    "module": "",
+    "address": 139808606,
+    "original": "0fe77c5e38",
+    "replacement": "0f7f7c5e38",
+    "instruction": "movntq qword ptr [esi + ebx*2 + 0x38], mm7"
+  },
+  {
+    "module": "",
+    "address": 139808765,
+    "original": "0fe7045e",
+    "replacement": "0f7f045e",
+    "instruction": "movntq qword ptr [esi + ebx*2], mm0"
+  },
+  {
+    "module": "",
+    "address": 139808769,
+    "original": "0fe74c5e08",
+    "replacement": "0f7f4c5e08",
+    "instruction": "movntq qword ptr [esi + ebx*2 + 8], mm1"
+  },
+  {
+    "module": "",
+    "address": 139808774,
+    "original": "0fe7545e10",
+    "replacement": "0f7f545e10",
+    "instruction": "movntq qword ptr [esi + ebx*2 + 0x10], mm2"
+  },
+  {
+    "module": "",
+    "address": 139808779,
+    "original": "0fe75c5e18",
+    "replacement": "0f7f5c5e18",
+    "instruction": "movntq qword ptr [esi + ebx*2 + 0x18], mm3"
+  },
+  {
+    "module": "",
+    "address": 139808784,
+    "original": "0fe7645e20",
+    "replacement": "0f7f645e20",
+    "instruction": "movntq qword ptr [esi + ebx*2 + 0x20], mm4"
+  },
+  {
+    "module": "",
+    "address": 139808789,
+    "original": "0fe76c5e28",
+    "replacement": "0f7f6c5e28",
+    "instruction": "movntq qword ptr [esi + ebx*2 + 0x28], mm5"
+  },
+  {
+    "module": "",
+    "address": 139808794,
+    "original": "0fe7745e30",
+    "replacement": "0f7f745e30",
+    "instruction": "movntq qword ptr [esi + ebx*2 + 0x30], mm6"
+  },
+  {
+    "module": "",
+    "address": 139808799,
+    "original": "0fe77c5e38",
+    "replacement": "0f7f7c5e38",
+    "instruction": "movntq qword ptr [esi + ebx*2 + 0x38], mm7"
+  },
+  {
+    "module": "",
+    "address": 139809040,
+    "original": "0fe744dd00",
+    "replacement": "0f7f44dd00",
+    "instruction": "movntq qword ptr [ebp + ebx*8], mm0"
+  },
+  {
+    "module": "",
+    "address": 139809045,
+    "original": "0fe75cdd08",
+    "replacement": "0f7f5cdd08",
+    "instruction": "movntq qword ptr [ebp + ebx*8 + 8], mm3"
+  },
+  {
+    "module": "",
+    "address": 139809067,
+    "original": "0fe744dd10",
+    "replacement": "0f7f44dd10",
+    "instruction": "movntq qword ptr [ebp + ebx*8 + 0x10], mm0"
+  },
+  {
+    "module": "",
+    "address": 139809072,
+    "original": "0fe75cdd18",
+    "replacement": "0f7f5cdd18",
+    "instruction": "movntq qword ptr [ebp + ebx*8 + 0x18], mm3"
+  },
+  {
+    "module": "",
+    "address": 139809097,
+    "original": "0fe744dd20",
+    "replacement": "0f7f44dd20",
+    "instruction": "movntq qword ptr [ebp + ebx*8 + 0x20], mm0"
+  },
+  {
+    "module": "",
+    "address": 139809102,
+    "original": "0fe75cdd28",
+    "replacement": "0f7f5cdd28",
+    "instruction": "movntq qword ptr [ebp + ebx*8 + 0x28], mm3"
+  },
+  {
+    "module": "",
+    "address": 139809124,
+    "original": "0fe744dd30",
+    "replacement": "0f7f44dd30",
+    "instruction": "movntq qword ptr [ebp + ebx*8 + 0x30], mm0"
+  },
+  {
+    "module": "",
+    "address": 139809129,
+    "original": "0fe75cdd38",
+    "replacement": "0f7f5cdd38",
+    "instruction": "movntq qword ptr [ebp + ebx*8 + 0x38], mm3"
+  },
+  {
+    "module": "",
+    "address": 139809487,
+    "original": "0fe74403f1",
+    "replacement": "0f7f4403f1",
+    "instruction": "movntq qword ptr [ebx + eax - 0xf], mm0"
+  },
+  {
+    "module": "",
+    "address": 139809492,
+    "original": "0fe75403f9",
+    "replacement": "0f7f5403f9",
+    "instruction": "movntq qword ptr [ebx + eax - 7], mm2"
+  },
+  {
+    "module": "",
+    "address": 139809637,
+    "original": "0fe74401f9",
+    "replacement": "0f7f4401f9",
+    "instruction": "movntq qword ptr [ecx + eax - 7], mm0"
+  },
+  {
+    "module": "",
+    "address": 139809642,
+    "original": "0fe74c02f9",
+    "replacement": "0f7f4c02f9",
+    "instruction": "movntq qword ptr [edx + eax - 7], mm1"
+  },
+  {
+    "module": "",
+    "address": 139809906,
+    "original": "660fe7444500",
+    "replacement": "660f7f444500",
+    "instruction": "movntdq xmmword ptr [ebp + eax*2], xmm0"
+  },
+  {
+    "module": "",
+    "address": 139809912,
+    "original": "660fe74c4510",
+    "replacement": "660f7f4c4510",
+    "instruction": "movntdq xmmword ptr [ebp + eax*2 + 0x10], xmm1"
+  },
+  {
+    "module": "",
+    "address": 139813743,
+    "original": "0fe70406",
+    "replacement": "0f7f0406",
+    "instruction": "movntq qword ptr [esi + eax], mm0"
+  },
+  {
+    "module": "",
+    "address": 139813935,
+    "original": "0fe70406",
+    "replacement": "0f7f0406",
+    "instruction": "movntq qword ptr [esi + eax], mm0"
+  },
+  {
+    "module": "",
+    "address": 139815739,
+    "original": "0fe70482",
+    "replacement": "0f7f0482",
+    "instruction": "movntq qword ptr [edx + eax*4], mm0"
+  },
+  {
+    "module": "",
+    "address": 139815743,
+    "original": "0fe7648208",
+    "replacement": "0f7f648208",
+    "instruction": "movntq qword ptr [edx + eax*4 + 8], mm4"
+  },
+  {
+    "module": "",
+    "address": 139815748,
+    "original": "0fe7548210",
+    "replacement": "0f7f548210",
+    "instruction": "movntq qword ptr [edx + eax*4 + 0x10], mm2"
+  },
+  {
+    "module": "",
+    "address": 139815753,
+    "original": "0fe7748218",
+    "replacement": "0f7f748218",
+    "instruction": "movntq qword ptr [edx + eax*4 + 0x18], mm6"
+  },
+  {
+    "module": "",
+    "address": 139816235,
+    "original": "0fe71c82",
+    "replacement": "0f7f1c82",
+    "instruction": "movntq qword ptr [edx + eax*4], mm3"
+  },
+  {
+    "module": "",
+    "address": 139816239,
+    "original": "0fe7648208",
+    "replacement": "0f7f648208",
+    "instruction": "movntq qword ptr [edx + eax*4 + 8], mm4"
+  },
+  {
+    "module": "",
+    "address": 139816244,
+    "original": "0fe76c8210",
+    "replacement": "0f7f6c8210",
+    "instruction": "movntq qword ptr [edx + eax*4 + 0x10], mm5"
+  },
+  {
+    "module": "",
+    "address": 139816249,
+    "original": "0fe7748218",
+    "replacement": "0f7f748218",
+    "instruction": "movntq qword ptr [edx + eax*4 + 0x18], mm6"
+  },
+  {
+    "module": "",
+    "address": 139818388,
+    "original": "0fe74401f1",
+    "replacement": "0f7f4401f1",
+    "instruction": "movntq qword ptr [ecx + eax - 0xf], mm0"
+  },
+  {
+    "module": "",
+    "address": 139818393,
+    "original": "0fe75401f9",
+    "replacement": "0f7f5401f9",
+    "instruction": "movntq qword ptr [ecx + eax - 7], mm2"
+  },
+  {
+    "module": "",
+    "address": 139818617,
+    "original": "0fe74403f9",
+    "replacement": "0f7f4403f9",
+    "instruction": "movntq qword ptr [ebx + eax - 7], mm0"
+  },
+  {
+    "module": "",
+    "address": 139818622,
+    "original": "0fe74c06f9",
+    "replacement": "0f7f4c06f9",
+    "instruction": "movntq qword ptr [esi + eax - 7], mm1"
+  },
+  {
+    "module": "",
+    "address": 139818950,
+    "original": "0fe74403f1",
+    "replacement": "0f7f4403f1",
+    "instruction": "movntq qword ptr [ebx + eax - 0xf], mm0"
+  },
+  {
+    "module": "",
+    "address": 139818955,
+    "original": "0fe75403f9",
+    "replacement": "0f7f5403f9",
+    "instruction": "movntq qword ptr [ebx + eax - 7], mm2"
+  },
+  {
+    "module": "",
+    "address": 139819173,
+    "original": "0fe74403f9",
+    "replacement": "0f7f4403f9",
+    "instruction": "movntq qword ptr [ebx + eax - 7], mm0"
+  },
+  {
+    "module": "",
+    "address": 139819178,
+    "original": "0fe74c06f9",
+    "replacement": "0f7f4c06f9",
+    "instruction": "movntq qword ptr [esi + eax - 7], mm1"
+  },
+  {
+    "module": "",
+    "address": 139819550,
+    "original": "0fe74403f1",
+    "replacement": "0f7f4403f1",
+    "instruction": "movntq qword ptr [ebx + eax - 0xf], mm0"
+  },
+  {
+    "module": "",
+    "address": 139819555,
+    "original": "0fe75403f9",
+    "replacement": "0f7f5403f9",
+    "instruction": "movntq qword ptr [ebx + eax - 7], mm2"
+  },
+  {
+    "module": "",
+    "address": 139819703,
+    "original": "0fe74405f9",
+    "replacement": "0f7f4405f9",
+    "instruction": "movntq qword ptr [ebp + eax - 7], mm0"
+  },
+  {
+    "module": "",
+    "address": 139819708,
+    "original": "0fe74c01f9",
+    "replacement": "0f7f4c01f9",
+    "instruction": "movntq qword ptr [ecx + eax - 7], mm1"
+  },
+  {
+    "module": "",
+    "address": 139851451,
+    "original": "0fe74500",
+    "replacement": "0f7f4500",
+    "instruction": "movntq qword ptr [ebp], mm0"
+  },
+  {
+    "module": "",
+    "address": 139851455,
+    "original": "0fe74d08",
+    "replacement": "0f7f4d08",
+    "instruction": "movntq qword ptr [ebp + 8], mm1"
+  },
+  {
+    "module": "",
+    "address": 139851459,
+    "original": "0fe75510",
+    "replacement": "0f7f5510",
+    "instruction": "movntq qword ptr [ebp + 0x10], mm2"
+  },
+  {
+    "module": "",
+    "address": 139852059,
+    "original": "0fe74500",
+    "replacement": "0f7f4500",
+    "instruction": "movntq qword ptr [ebp], mm0"
+  },
+  {
+    "module": "",
+    "address": 139852063,
+    "original": "0fe74d08",
+    "replacement": "0f7f4d08",
+    "instruction": "movntq qword ptr [ebp + 8], mm1"
+  },
+  {
+    "module": "",
+    "address": 139852067,
+    "original": "0fe75510",
+    "replacement": "0f7f5510",
+    "instruction": "movntq qword ptr [ebp + 0x10], mm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1334822,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1334826,
+    "original": "660fe74210",
+    "replacement": "660f7f4210",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1334831,
+    "original": "660fe74220",
+    "replacement": "660f7f4220",
+    "instruction": "movntdq xmmword ptr [edx + 0x20], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1334836,
+    "original": "660fe74230",
+    "replacement": "660f7f4230",
+    "instruction": "movntdq xmmword ptr [edx + 0x30], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1334841,
+    "original": "660fe74240",
+    "replacement": "660f7f4240",
+    "instruction": "movntdq xmmword ptr [edx + 0x40], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1334846,
+    "original": "660fe74250",
+    "replacement": "660f7f4250",
+    "instruction": "movntdq xmmword ptr [edx + 0x50], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1334851,
+    "original": "660fe74260",
+    "replacement": "660f7f4260",
+    "instruction": "movntdq xmmword ptr [edx + 0x60], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1334856,
+    "original": "660fe74270",
+    "replacement": "660f7f4270",
+    "instruction": "movntdq xmmword ptr [edx + 0x70], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1336406,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1336410,
+    "original": "660fe74210",
+    "replacement": "660f7f4210",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1336415,
+    "original": "660fe74220",
+    "replacement": "660f7f4220",
+    "instruction": "movntdq xmmword ptr [edx + 0x20], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1336420,
+    "original": "660fe74230",
+    "replacement": "660f7f4230",
+    "instruction": "movntdq xmmword ptr [edx + 0x30], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1336425,
+    "original": "660fe74240",
+    "replacement": "660f7f4240",
+    "instruction": "movntdq xmmword ptr [edx + 0x40], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1336430,
+    "original": "660fe74250",
+    "replacement": "660f7f4250",
+    "instruction": "movntdq xmmword ptr [edx + 0x50], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1336435,
+    "original": "660fe74260",
+    "replacement": "660f7f4260",
+    "instruction": "movntdq xmmword ptr [edx + 0x60], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1336440,
+    "original": "660fe74270",
+    "replacement": "660f7f4270",
+    "instruction": "movntdq xmmword ptr [edx + 0x70], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1340612,
+    "original": "660fe741c0",
+    "replacement": "660f7f41c0",
+    "instruction": "movntdq xmmword ptr [ecx - 0x40], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1340620,
+    "original": "660fe749d0",
+    "replacement": "660f7f49d0",
+    "instruction": "movntdq xmmword ptr [ecx - 0x30], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1340625,
+    "original": "660fe751e0",
+    "replacement": "660f7f51e0",
+    "instruction": "movntdq xmmword ptr [ecx - 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1340630,
+    "original": "660fe759f0",
+    "replacement": "660f7f59f0",
+    "instruction": "movntdq xmmword ptr [ecx - 0x10], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1341203,
+    "original": "660fe701",
+    "replacement": "660f7f01",
+    "instruction": "movntdq xmmword ptr [ecx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1341210,
+    "original": "660fe74910",
+    "replacement": "660f7f4910",
+    "instruction": "movntdq xmmword ptr [ecx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1341215,
+    "original": "660fe75120",
+    "replacement": "660f7f5120",
+    "instruction": "movntdq xmmword ptr [ecx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1341220,
+    "original": "660fe75930",
+    "replacement": "660f7f5930",
+    "instruction": "movntdq xmmword ptr [ecx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1341887,
+    "original": "660fe703",
+    "replacement": "660f7f03",
+    "instruction": "movntdq xmmword ptr [ebx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1341891,
+    "original": "660fe74b10",
+    "replacement": "660f7f4b10",
+    "instruction": "movntdq xmmword ptr [ebx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1341896,
+    "original": "660fe75320",
+    "replacement": "660f7f5320",
+    "instruction": "movntdq xmmword ptr [ebx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1341901,
+    "original": "660fe75b30",
+    "replacement": "660f7f5b30",
+    "instruction": "movntdq xmmword ptr [ebx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1341906,
+    "original": "660fe76340",
+    "replacement": "660f7f6340",
+    "instruction": "movntdq xmmword ptr [ebx + 0x40], xmm4"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1341911,
+    "original": "660fe76b50",
+    "replacement": "660f7f6b50",
+    "instruction": "movntdq xmmword ptr [ebx + 0x50], xmm5"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1341916,
+    "original": "660fe77360",
+    "replacement": "660f7f7360",
+    "instruction": "movntdq xmmword ptr [ebx + 0x60], xmm6"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1341921,
+    "original": "660fe77b70",
+    "replacement": "660f7f7b70",
+    "instruction": "movntdq xmmword ptr [ebx + 0x70], xmm7"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1342687,
+    "original": "660fe703",
+    "replacement": "660f7f03",
+    "instruction": "movntdq xmmword ptr [ebx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1342691,
+    "original": "660fe74b10",
+    "replacement": "660f7f4b10",
+    "instruction": "movntdq xmmword ptr [ebx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1342696,
+    "original": "660fe75320",
+    "replacement": "660f7f5320",
+    "instruction": "movntdq xmmword ptr [ebx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1342701,
+    "original": "660fe75b30",
+    "replacement": "660f7f5b30",
+    "instruction": "movntdq xmmword ptr [ebx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1342706,
+    "original": "660fe76340",
+    "replacement": "660f7f6340",
+    "instruction": "movntdq xmmword ptr [ebx + 0x40], xmm4"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1342711,
+    "original": "660fe76b50",
+    "replacement": "660f7f6b50",
+    "instruction": "movntdq xmmword ptr [ebx + 0x50], xmm5"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1342716,
+    "original": "660fe77360",
+    "replacement": "660f7f7360",
+    "instruction": "movntdq xmmword ptr [ebx + 0x60], xmm6"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1342721,
+    "original": "660fe77b70",
+    "replacement": "660f7f7b70",
+    "instruction": "movntdq xmmword ptr [ebx + 0x70], xmm7"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1343487,
+    "original": "660fe703",
+    "replacement": "660f7f03",
+    "instruction": "movntdq xmmword ptr [ebx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1343491,
+    "original": "660fe74b10",
+    "replacement": "660f7f4b10",
+    "instruction": "movntdq xmmword ptr [ebx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1343496,
+    "original": "660fe75320",
+    "replacement": "660f7f5320",
+    "instruction": "movntdq xmmword ptr [ebx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1343501,
+    "original": "660fe75b30",
+    "replacement": "660f7f5b30",
+    "instruction": "movntdq xmmword ptr [ebx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1343506,
+    "original": "660fe76340",
+    "replacement": "660f7f6340",
+    "instruction": "movntdq xmmword ptr [ebx + 0x40], xmm4"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1343511,
+    "original": "660fe76b50",
+    "replacement": "660f7f6b50",
+    "instruction": "movntdq xmmword ptr [ebx + 0x50], xmm5"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1343516,
+    "original": "660fe77360",
+    "replacement": "660f7f7360",
+    "instruction": "movntdq xmmword ptr [ebx + 0x60], xmm6"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1343521,
+    "original": "660fe77b70",
+    "replacement": "660f7f7b70",
+    "instruction": "movntdq xmmword ptr [ebx + 0x70], xmm7"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1344180,
+    "original": "660fe741c0",
+    "replacement": "660f7f41c0",
+    "instruction": "movntdq xmmword ptr [ecx - 0x40], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1344188,
+    "original": "660fe749d0",
+    "replacement": "660f7f49d0",
+    "instruction": "movntdq xmmword ptr [ecx - 0x30], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1344193,
+    "original": "660fe751e0",
+    "replacement": "660f7f51e0",
+    "instruction": "movntdq xmmword ptr [ecx - 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1344198,
+    "original": "660fe759f0",
+    "replacement": "660f7f59f0",
+    "instruction": "movntdq xmmword ptr [ecx - 0x10], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1344771,
+    "original": "660fe701",
+    "replacement": "660f7f01",
+    "instruction": "movntdq xmmword ptr [ecx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1344778,
+    "original": "660fe74910",
+    "replacement": "660f7f4910",
+    "instruction": "movntdq xmmword ptr [ecx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1344783,
+    "original": "660fe75120",
+    "replacement": "660f7f5120",
+    "instruction": "movntdq xmmword ptr [ecx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1344788,
+    "original": "660fe75930",
+    "replacement": "660f7f5930",
+    "instruction": "movntdq xmmword ptr [ecx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1345455,
+    "original": "660fe703",
+    "replacement": "660f7f03",
+    "instruction": "movntdq xmmword ptr [ebx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1345459,
+    "original": "660fe74b10",
+    "replacement": "660f7f4b10",
+    "instruction": "movntdq xmmword ptr [ebx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1345464,
+    "original": "660fe75320",
+    "replacement": "660f7f5320",
+    "instruction": "movntdq xmmword ptr [ebx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1345469,
+    "original": "660fe75b30",
+    "replacement": "660f7f5b30",
+    "instruction": "movntdq xmmword ptr [ebx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1345474,
+    "original": "660fe76340",
+    "replacement": "660f7f6340",
+    "instruction": "movntdq xmmword ptr [ebx + 0x40], xmm4"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1345479,
+    "original": "660fe76b50",
+    "replacement": "660f7f6b50",
+    "instruction": "movntdq xmmword ptr [ebx + 0x50], xmm5"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1345484,
+    "original": "660fe77360",
+    "replacement": "660f7f7360",
+    "instruction": "movntdq xmmword ptr [ebx + 0x60], xmm6"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1345489,
+    "original": "660fe77b70",
+    "replacement": "660f7f7b70",
+    "instruction": "movntdq xmmword ptr [ebx + 0x70], xmm7"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1352967,
+    "original": "660fe70a",
+    "replacement": "660f7f0a",
+    "instruction": "movntdq xmmword ptr [edx], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1353043,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1353047,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1353052,
+    "original": "660fe75220",
+    "replacement": "660f7f5220",
+    "instruction": "movntdq xmmword ptr [edx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1353057,
+    "original": "660fe75a30",
+    "replacement": "660f7f5a30",
+    "instruction": "movntdq xmmword ptr [edx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1353062,
+    "original": "660fe76240",
+    "replacement": "660f7f6240",
+    "instruction": "movntdq xmmword ptr [edx + 0x40], xmm4"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1353067,
+    "original": "660fe76a50",
+    "replacement": "660f7f6a50",
+    "instruction": "movntdq xmmword ptr [edx + 0x50], xmm5"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1353072,
+    "original": "660fe77260",
+    "replacement": "660f7f7260",
+    "instruction": "movntdq xmmword ptr [edx + 0x60], xmm6"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1353077,
+    "original": "660fe77a70",
+    "replacement": "660f7f7a70",
+    "instruction": "movntdq xmmword ptr [edx + 0x70], xmm7"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1353123,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1353127,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1353132,
+    "original": "660fe75220",
+    "replacement": "660f7f5220",
+    "instruction": "movntdq xmmword ptr [edx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1353137,
+    "original": "660fe75a30",
+    "replacement": "660f7f5a30",
+    "instruction": "movntdq xmmword ptr [edx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1353165,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1353169,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1361063,
+    "original": "660fe70a",
+    "replacement": "660f7f0a",
+    "instruction": "movntdq xmmword ptr [edx], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1361139,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1361143,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1361148,
+    "original": "660fe75220",
+    "replacement": "660f7f5220",
+    "instruction": "movntdq xmmword ptr [edx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1361153,
+    "original": "660fe75a30",
+    "replacement": "660f7f5a30",
+    "instruction": "movntdq xmmword ptr [edx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1361158,
+    "original": "660fe76240",
+    "replacement": "660f7f6240",
+    "instruction": "movntdq xmmword ptr [edx + 0x40], xmm4"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1361163,
+    "original": "660fe76a50",
+    "replacement": "660f7f6a50",
+    "instruction": "movntdq xmmword ptr [edx + 0x50], xmm5"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1361168,
+    "original": "660fe77260",
+    "replacement": "660f7f7260",
+    "instruction": "movntdq xmmword ptr [edx + 0x60], xmm6"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1361173,
+    "original": "660fe77a70",
+    "replacement": "660f7f7a70",
+    "instruction": "movntdq xmmword ptr [edx + 0x70], xmm7"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1361219,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1361223,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1361228,
+    "original": "660fe75220",
+    "replacement": "660f7f5220",
+    "instruction": "movntdq xmmword ptr [edx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1361233,
+    "original": "660fe75a30",
+    "replacement": "660f7f5a30",
+    "instruction": "movntdq xmmword ptr [edx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1361261,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1361265,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1369615,
+    "original": "660fe70a",
+    "replacement": "660f7f0a",
+    "instruction": "movntdq xmmword ptr [edx], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1369683,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1369687,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1369692,
+    "original": "660fe75220",
+    "replacement": "660f7f5220",
+    "instruction": "movntdq xmmword ptr [edx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1369697,
+    "original": "660fe75a30",
+    "replacement": "660f7f5a30",
+    "instruction": "movntdq xmmword ptr [edx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1369702,
+    "original": "660fe76240",
+    "replacement": "660f7f6240",
+    "instruction": "movntdq xmmword ptr [edx + 0x40], xmm4"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1369707,
+    "original": "660fe76a50",
+    "replacement": "660f7f6a50",
+    "instruction": "movntdq xmmword ptr [edx + 0x50], xmm5"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1369712,
+    "original": "660fe77260",
+    "replacement": "660f7f7260",
+    "instruction": "movntdq xmmword ptr [edx + 0x60], xmm6"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1369717,
+    "original": "660fe77a70",
+    "replacement": "660f7f7a70",
+    "instruction": "movntdq xmmword ptr [edx + 0x70], xmm7"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1369763,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1369767,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1369772,
+    "original": "660fe75220",
+    "replacement": "660f7f5220",
+    "instruction": "movntdq xmmword ptr [edx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1369777,
+    "original": "660fe75a30",
+    "replacement": "660f7f5a30",
+    "instruction": "movntdq xmmword ptr [edx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1369805,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1369809,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1374152,
+    "original": "660fe70a",
+    "replacement": "660f7f0a",
+    "instruction": "movntdq xmmword ptr [edx], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1374249,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1374253,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1374258,
+    "original": "660fe75220",
+    "replacement": "660f7f5220",
+    "instruction": "movntdq xmmword ptr [edx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1374263,
+    "original": "660fe75a30",
+    "replacement": "660f7f5a30",
+    "instruction": "movntdq xmmword ptr [edx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1374268,
+    "original": "660fe76240",
+    "replacement": "660f7f6240",
+    "instruction": "movntdq xmmword ptr [edx + 0x40], xmm4"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1374273,
+    "original": "660fe76a50",
+    "replacement": "660f7f6a50",
+    "instruction": "movntdq xmmword ptr [edx + 0x50], xmm5"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1374278,
+    "original": "660fe77260",
+    "replacement": "660f7f7260",
+    "instruction": "movntdq xmmword ptr [edx + 0x60], xmm6"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1374283,
+    "original": "660fe77a70",
+    "replacement": "660f7f7a70",
+    "instruction": "movntdq xmmword ptr [edx + 0x70], xmm7"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1374329,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1374333,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1374338,
+    "original": "660fe75220",
+    "replacement": "660f7f5220",
+    "instruction": "movntdq xmmword ptr [edx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1374343,
+    "original": "660fe75a30",
+    "replacement": "660f7f5a30",
+    "instruction": "movntdq xmmword ptr [edx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1374371,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1374375,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1378200,
+    "original": "660fe70a",
+    "replacement": "660f7f0a",
+    "instruction": "movntdq xmmword ptr [edx], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1378297,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1378301,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1378306,
+    "original": "660fe75220",
+    "replacement": "660f7f5220",
+    "instruction": "movntdq xmmword ptr [edx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1378311,
+    "original": "660fe75a30",
+    "replacement": "660f7f5a30",
+    "instruction": "movntdq xmmword ptr [edx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1378316,
+    "original": "660fe76240",
+    "replacement": "660f7f6240",
+    "instruction": "movntdq xmmword ptr [edx + 0x40], xmm4"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1378321,
+    "original": "660fe76a50",
+    "replacement": "660f7f6a50",
+    "instruction": "movntdq xmmword ptr [edx + 0x50], xmm5"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1378326,
+    "original": "660fe77260",
+    "replacement": "660f7f7260",
+    "instruction": "movntdq xmmword ptr [edx + 0x60], xmm6"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1378331,
+    "original": "660fe77a70",
+    "replacement": "660f7f7a70",
+    "instruction": "movntdq xmmword ptr [edx + 0x70], xmm7"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1378377,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1378381,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1378386,
+    "original": "660fe75220",
+    "replacement": "660f7f5220",
+    "instruction": "movntdq xmmword ptr [edx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1378391,
+    "original": "660fe75a30",
+    "replacement": "660f7f5a30",
+    "instruction": "movntdq xmmword ptr [edx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1378419,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1378423,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1382312,
+    "original": "660fe70a",
+    "replacement": "660f7f0a",
+    "instruction": "movntdq xmmword ptr [edx], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1382409,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1382413,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1382418,
+    "original": "660fe75220",
+    "replacement": "660f7f5220",
+    "instruction": "movntdq xmmword ptr [edx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1382423,
+    "original": "660fe75a30",
+    "replacement": "660f7f5a30",
+    "instruction": "movntdq xmmword ptr [edx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1382428,
+    "original": "660fe76240",
+    "replacement": "660f7f6240",
+    "instruction": "movntdq xmmword ptr [edx + 0x40], xmm4"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1382433,
+    "original": "660fe76a50",
+    "replacement": "660f7f6a50",
+    "instruction": "movntdq xmmword ptr [edx + 0x50], xmm5"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1382438,
+    "original": "660fe77260",
+    "replacement": "660f7f7260",
+    "instruction": "movntdq xmmword ptr [edx + 0x60], xmm6"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1382443,
+    "original": "660fe77a70",
+    "replacement": "660f7f7a70",
+    "instruction": "movntdq xmmword ptr [edx + 0x70], xmm7"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1382489,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1382493,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1382498,
+    "original": "660fe75220",
+    "replacement": "660f7f5220",
+    "instruction": "movntdq xmmword ptr [edx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1382503,
+    "original": "660fe75a30",
+    "replacement": "660f7f5a30",
+    "instruction": "movntdq xmmword ptr [edx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1382531,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1382535,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1390815,
+    "original": "660fe70a",
+    "replacement": "660f7f0a",
+    "instruction": "movntdq xmmword ptr [edx], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1390883,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1390887,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1390892,
+    "original": "660fe75220",
+    "replacement": "660f7f5220",
+    "instruction": "movntdq xmmword ptr [edx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1390897,
+    "original": "660fe75a30",
+    "replacement": "660f7f5a30",
+    "instruction": "movntdq xmmword ptr [edx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1390902,
+    "original": "660fe76240",
+    "replacement": "660f7f6240",
+    "instruction": "movntdq xmmword ptr [edx + 0x40], xmm4"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1390907,
+    "original": "660fe76a50",
+    "replacement": "660f7f6a50",
+    "instruction": "movntdq xmmword ptr [edx + 0x50], xmm5"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1390912,
+    "original": "660fe77260",
+    "replacement": "660f7f7260",
+    "instruction": "movntdq xmmword ptr [edx + 0x60], xmm6"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1390917,
+    "original": "660fe77a70",
+    "replacement": "660f7f7a70",
+    "instruction": "movntdq xmmword ptr [edx + 0x70], xmm7"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1390963,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1390967,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1390972,
+    "original": "660fe75220",
+    "replacement": "660f7f5220",
+    "instruction": "movntdq xmmword ptr [edx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1390977,
+    "original": "660fe75a30",
+    "replacement": "660f7f5a30",
+    "instruction": "movntdq xmmword ptr [edx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1391005,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1391009,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1395304,
+    "original": "660fe70a",
+    "replacement": "660f7f0a",
+    "instruction": "movntdq xmmword ptr [edx], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1395401,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1395405,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1395410,
+    "original": "660fe75220",
+    "replacement": "660f7f5220",
+    "instruction": "movntdq xmmword ptr [edx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1395415,
+    "original": "660fe75a30",
+    "replacement": "660f7f5a30",
+    "instruction": "movntdq xmmword ptr [edx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1395420,
+    "original": "660fe76240",
+    "replacement": "660f7f6240",
+    "instruction": "movntdq xmmword ptr [edx + 0x40], xmm4"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1395425,
+    "original": "660fe76a50",
+    "replacement": "660f7f6a50",
+    "instruction": "movntdq xmmword ptr [edx + 0x50], xmm5"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1395430,
+    "original": "660fe77260",
+    "replacement": "660f7f7260",
+    "instruction": "movntdq xmmword ptr [edx + 0x60], xmm6"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1395435,
+    "original": "660fe77a70",
+    "replacement": "660f7f7a70",
+    "instruction": "movntdq xmmword ptr [edx + 0x70], xmm7"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1395481,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1395485,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1395490,
+    "original": "660fe75220",
+    "replacement": "660f7f5220",
+    "instruction": "movntdq xmmword ptr [edx + 0x20], xmm2"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1395495,
+    "original": "660fe75a30",
+    "replacement": "660f7f5a30",
+    "instruction": "movntdq xmmword ptr [edx + 0x30], xmm3"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1395523,
+    "original": "660fe702",
+    "replacement": "660f7f02",
+    "instruction": "movntdq xmmword ptr [edx], xmm0"
+  },
+  {
+    "module": "libc.so.6",
+    "address": 1395527,
+    "original": "660fe74a10",
+    "replacement": "660f7f4a10",
+    "instruction": "movntdq xmmword ptr [edx + 0x10], xmm1"
+  },
+  {
+    "module": "libNAT-1.2.so.0",
+    "address": 76416,
+    "original": "0fe707",
+    "replacement": "0f7f07",
+    "instruction": "movntq qword ptr [edi], mm0"
+  }
+]

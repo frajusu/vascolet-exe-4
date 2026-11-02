@@ -2,5 +2,6 @@
   "number": 4,
   "exe": "vascolet4.exe",
   "zipBytes": 51445557,
-  "wineBytes": 99512877
+  "wineBytes": 99512877,
+  "xoEngine": true
 }
