@@ -1,0 +1,111 @@
+{
+  "elfSha256": "95f3798f7e1be2bb75a85d637e74750beb41787cbd260549232f88f5cd759573",
+  "targetFPS": 60,
+  "symbols": {
+    "instance": 140565112,
+    "getLimit": 137195312,
+    "setLimit": 137195264
+  },
+  "colorAcceleration": {
+    "forward": {
+      "address": 137167936,
+      "sha256": "c85f484162ecacd81011cf658d399e432178a5fc69b839f35eb54618516cbf3c",
+      "binary32Coefficients": [
+        0.29899999499320984,
+        0.5870000123977661,
+        0.11400000005960464,
+        -0.16899999976158142,
+        -0.3319999873638153,
+        0.5,
+        128.0,
+        -0.4189999997615814,
+        -0.08129999786615372
+      ]
+    },
+    "inverse": {
+      "address": 137168192,
+      "sha256": "8c755d24d38b62ac7b1ad9cda838e1a58fd0c713df62b6462d78becc7da276ed",
+      "binary32Coefficients": [
+        128.0,
+        1.4075000286102295,
+        -0.34549999237060547,
+        -0.7168999910354614,
+        1.7790000438690186
+      ]
+    }
+  },
+  "rendererHooks": {
+    "draw": {
+      "symbol": "_ZN3bat21SDLOverlayRendererYUV13renderTextureENS_20TextureRenderingMode4EnumERKNS_7TextureERKNS_7BatRectERKNS_7Vector2ERKNS_9Matrix3x2EfRKNS_5ColorENS_8TintMode4EnumENS_9BlendMode4EnumEb",
+      "address": 137299504,
+      "sha256": "e680213d0b980edf6866788ff32efdc05350ba26e95b720b0dace35f99b4453c"
+    },
+    "clear": {
+      "symbol": "_ZN3bat21SDLOverlayRendererYUV10clearFrameEv",
+      "address": 137299408,
+      "sha256": "874fff2492d3f1911bbb29745e7d44e7949ed60aec1968174f3ee32468405cad"
+    },
+    "line": {
+      "symbol": "_ZN3bat21SDLOverlayRendererYUV10renderLineERKNS_7Vector2ES3_fRKNS_9Matrix3x2ERKNS_5ColorENS_9BlendMode4EnumEb",
+      "address": 137298816,
+      "sha256": "09bad2aa4fdee8bff6c53c209b2a525ffeb9d650eb7d0bc9f7af823f18019f0d"
+    },
+    "unload": {
+      "symbol": "_ZN3bat13SDLTextureYUV6unloadEv",
+      "address": 136970736,
+      "sha256": "b70e85ae420c431720e1cb5ca254c61460a6014cc00a7b213dc57c036b849bd4"
+    },
+    "data": {
+      "symbol": "_ZNK3bat13SDLTextureYUV8getpDataEv",
+      "address": 136970448,
+      "sha256": "5baad764069c2958831d0b523468369f696ae667d37f739e8df1c34fda876987"
+    }
+  },
+  "axisAlignedMath": {
+    "multiply": {
+      "symbol": "_ZN3bat9Matrix3x2mLERKS0_",
+      "address": 137320688,
+      "sha256": "bddecf903b3446b25f88f27d9faaebdd954d688fcf56de0cd05f73eea1e6ff75"
+    },
+    "premultiply": {
+      "symbol": "_ZN3bat9Matrix3x27preMultERKS0_",
+      "address": 137320848,
+      "sha256": "7b1b95698a01b3f01428ebab6813f92a627dab3522fbdfb56834b5e8478ca925"
+    },
+    "transform": {
+      "symbol": "_ZNK3bat9Matrix3x29transformERNS_7Vector2E",
+      "address": 137321456,
+      "sha256": "0919dba441a9a879108502e6c76271415e42f5266a49254fbf26119d9820c287"
+    },
+    "scale": {
+      "symbol": "_ZN3bat9Matrix3x25scaleEff",
+      "address": 137321168,
+      "sha256": "fb6a59ad595ec3a90509bb3129a20e77460ae9aca6ccf623a6237ad84ad96a1a"
+    },
+    "translate": {
+      "symbol": "_ZN3bat9Matrix3x29translateEff",
+      "address": 137321424,
+      "sha256": "d0cc21b606cdd9bc1b4707d2e2be8a1d8f94c83ffc3b5513568d05eab2523727"
+    },
+    "color_product": {
+      "symbol": "_ZNK3bat5ColormlERKS0_",
+      "address": 137170496,
+      "sha256": "674c7c3d6762079fc9a1dd6e5a820d87f229dbd8ce7cd45420e177404be211ef"
+    },
+    "color_scale": {
+      "symbol": "_ZNK3bat5ColormlEf",
+      "address": 137170560,
+      "sha256": "9daa362c20f3a77b56952009535fa5d2fe71694f231708bd7a4a87afb41d3b86"
+    },
+    "color_assign_product": {
+      "symbol": "_ZN3bat5ColormLERKS0_",
+      "address": 137169360,
+      "sha256": "3d44b5b4ab257253553b134f385a813e9c4c0bd79eea6d9f8775cbfbc5afbe18"
+    },
+    "color_assign_scale": {
+      "symbol": "_ZN3bat5ColormLEf",
+      "address": 137169408,
+      "sha256": "34b018b17aec752840bac656b460c706fc2dc5f33ec39b1a583c9f84ed53f84b"
+    }
+  }
+}
