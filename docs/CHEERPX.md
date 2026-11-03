@@ -37,3 +37,12 @@ sustituye completar niveles para comprobar el guardado del propio juego.
 Para recompilar: configurar `ZIG` con Zig 0.13.0 y ejecutar
 `python native/cheerpx/rebuild.py`. `python build.py` genera el sitio con el
 bundle incluido. CheerpX se carga desde su CDN oficial.
+
+## Trabajo compartido de memoria y audio
+
+El adaptador JavaScript evita decodificar audios que no se usan, comparte los
+buffers de URLs repetidas y elimina buffers inactivos según un presupuesto
+de caché. Los canales también se liberan cuando falla una descarga de audio.
+El transporte de gráficos utiliza memoria reutilizable para reducir copias y
+asignaciones durante la partida. Estos cambios no eliminan la emulación del
+código original. Su efecto en un teléfono concreto todavía debe medirse.
