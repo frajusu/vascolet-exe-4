@@ -42,7 +42,7 @@ var ENVIRONMENT_IS_SHELL = !ENVIRONMENT_IS_WEB && !ENVIRONMENT_IS_NODE && !ENVIR
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: W:\Vascolet-Web\_ejecuciones\worker-4-link-20261108-152350-de5527\tmp\tmpmhripbpx.js
+// include: D:\Vascolet-Web\_ejecuciones\worker-4-link-20261122-221701-12db0b\tmp\tmpsqe9uxrs.js
 
   if (!Module['expectedDataFileDownloads']) Module['expectedDataFileDownloads'] = 0;
   Module['expectedDataFileDownloads']++;
@@ -61,7 +61,7 @@ var ENVIRONMENT_IS_SHELL = !ENVIRONMENT_IS_WEB && !ENVIRONMENT_IS_NODE && !ENVIR
         // web worker
         PACKAGE_PATH = encodeURIComponent(location.pathname.substring(0, location.pathname.lastIndexOf('/')) + '/');
       }
-      var PACKAGE_NAME = 'W:/Vascolet-Web/0_vascolets_web/recompiler-lab/game-4/runtime-stdlib/worker-runtime.data';
+      var PACKAGE_NAME = 'D:/Vascolet-Web/0_vascolets_web/recompiler-lab/game-4/runtime-stdlib/worker-runtime.data';
       var REMOTE_PACKAGE_BASE = 'worker-runtime.data';
       var REMOTE_PACKAGE_NAME = Module['locateFile'] ? Module['locateFile'](REMOTE_PACKAGE_BASE, '') : REMOTE_PACKAGE_BASE;
       var REMOTE_PACKAGE_SIZE = metadata['remote_package_size'];
@@ -409,9 +409,9 @@ Module['FS_createPath']("/game/assets", "videos", true, true);
         Module['FS_createDataFile'](name, null, data, true, true, true);
         Module['removeRunDependency'](`fp ${name}`);
           }
-          Module['removeRunDependency']('datafile_W:/Vascolet-Web/0_vascolets_web/recompiler-lab/game-4/runtime-stdlib/worker-runtime.data');
+          Module['removeRunDependency']('datafile_D:/Vascolet-Web/0_vascolets_web/recompiler-lab/game-4/runtime-stdlib/worker-runtime.data');
       }
-      Module['addRunDependency']('datafile_W:/Vascolet-Web/0_vascolets_web/recompiler-lab/game-4/runtime-stdlib/worker-runtime.data');
+      Module['addRunDependency']('datafile_D:/Vascolet-Web/0_vascolets_web/recompiler-lab/game-4/runtime-stdlib/worker-runtime.data');
 
       if (!Module['preloadResults']) Module['preloadResults'] = {};
 
@@ -434,7 +434,7 @@ Module['FS_createPath']("/game/assets", "videos", true, true);
 
   })();
 
-// end include: W:\Vascolet-Web\_ejecuciones\worker-4-link-20261108-152350-de5527\tmp\tmpmhripbpx.js
+// end include: D:\Vascolet-Web\_ejecuciones\worker-4-link-20261122-221701-12db0b\tmp\tmpsqe9uxrs.js
 
 
 var programArgs = [];
@@ -4265,7 +4265,8 @@ function browser_audio_music_finished() {return Module.aotHost&&Module.aotHost.m
 function browser_sdl_init(flags) { return Module.aotHost?.init(flags)?1:0; }
 function browser_sdl_size(w,h) {Module.aotHost.resize(w,h);}
 function browser_sdl_caption(text) {Module.aotHost.caption(UTF8ToString(text));}
-function browser_sdl_poll(pointer) {const event=Module.aotHost.events[0];if(!event)return 0;if(pointer){Module.aotHost.events.shift();HEAPU8.set(event,pointer);}return 1;}
+function browser_sdl_poll(pointer) {const e=Module.aotHost.events,ev=e[0];if(!ev)return 0;if(pointer){e.shift();HEAPU8.set(ev,pointer);}return 1;}
+function browser_sdl_yield(ms) { if(!(ms>0))return 0; if(!Module._slp){try{Module._slp=new Int32Array(new SharedArrayBuffer(4));}catch(e){return -1;}} var b=Module._slp,t0=performance.now(); try{Atomics.wait(b,0,b[0],ms);}catch(e){return -1;} var w=performance.now()-t0,h=Module.aotHost; if(h)h.yieldMs=(h.yieldMs||0)+w; return w; }
 function browser_sdl_mouse(which) {const m=Module.aotHost.mouse;return which===0?m.x:which===1?m.y:m.buttons;}
 function browser_sdl_cursor(mode) {return Module.aotHost.cursor(mode);}
 function browser_sdl_image(path,which,target) { let name=UTF8ToString(path);if(name.startsWith('/game/'))name=name.slice(6); const image=Module.aotHost.image(name); if(!image)return 0;if(which===0)return image.w;if(which===1)return image.h;HEAPU8.set(image.pixels,target);return 1; }
@@ -4274,6 +4275,24 @@ function browser_sdl_present(pixels,w,h,pitch,kind,dw,dh) { Module.aotHost.prese
 // Imports from the Wasm binary.
 var _set_entry_budget,
   _renew_entry_budget,
+  _get_sdl_yuv_dup,
+  _get_sdl_imp_n,
+  _get_sdl_imp_disp,
+  _get_sdl_imp_flip,
+  _get_sdl_imp_upd,
+  _get_sdl_imp_yuv,
+  _get_host_calls,
+  _get_tick_calls,
+  _get_poll_count,
+  _get_frames,
+  _get_calls,
+  _get_yield_n,
+  _get_memo_yuv_hits,
+  _get_memo_yuv_misses,
+  _get_memo_rgb_hits,
+  _get_memo_rgb_misses,
+  _get_memo_inst_hits,
+  _get_memo_inst_misses,
   _run_startup,
   _test_sdl_software,
   _test_printf,
@@ -4296,6 +4315,24 @@ var _set_entry_budget,
 function assignWasmExports(wasmExports) {
   _set_entry_budget = Module['_set_entry_budget'] = wasmExports['set_entry_budget'];
   _renew_entry_budget = Module['_renew_entry_budget'] = wasmExports['renew_entry_budget'];
+  _get_sdl_yuv_dup = Module['_get_sdl_yuv_dup'] = wasmExports['get_sdl_yuv_dup'];
+  _get_sdl_imp_n = Module['_get_sdl_imp_n'] = wasmExports['get_sdl_imp_n'];
+  _get_sdl_imp_disp = Module['_get_sdl_imp_disp'] = wasmExports['get_sdl_imp_disp'];
+  _get_sdl_imp_flip = Module['_get_sdl_imp_flip'] = wasmExports['get_sdl_imp_flip'];
+  _get_sdl_imp_upd = Module['_get_sdl_imp_upd'] = wasmExports['get_sdl_imp_upd'];
+  _get_sdl_imp_yuv = Module['_get_sdl_imp_yuv'] = wasmExports['get_sdl_imp_yuv'];
+  _get_host_calls = Module['_get_host_calls'] = wasmExports['get_host_calls'];
+  _get_tick_calls = Module['_get_tick_calls'] = wasmExports['get_tick_calls'];
+  _get_poll_count = Module['_get_poll_count'] = wasmExports['get_poll_count'];
+  _get_frames = Module['_get_frames'] = wasmExports['get_frames'];
+  _get_calls = Module['_get_calls'] = wasmExports['get_calls'];
+  _get_yield_n = Module['_get_yield_n'] = wasmExports['get_yield_n'];
+  _get_memo_yuv_hits = Module['_get_memo_yuv_hits'] = wasmExports['get_memo_yuv_hits'];
+  _get_memo_yuv_misses = Module['_get_memo_yuv_misses'] = wasmExports['get_memo_yuv_misses'];
+  _get_memo_rgb_hits = Module['_get_memo_rgb_hits'] = wasmExports['get_memo_rgb_hits'];
+  _get_memo_rgb_misses = Module['_get_memo_rgb_misses'] = wasmExports['get_memo_rgb_misses'];
+  _get_memo_inst_hits = Module['_get_memo_inst_hits'] = wasmExports['get_memo_inst_hits'];
+  _get_memo_inst_misses = Module['_get_memo_inst_misses'] = wasmExports['get_memo_inst_misses'];
   _run_startup = Module['_run_startup'] = wasmExports['run_startup'];
   _test_sdl_software = Module['_test_sdl_software'] = wasmExports['test_sdl_software'];
   _test_printf = Module['_test_printf'] = wasmExports['test_printf'];
@@ -4401,6 +4438,8 @@ var wasmImports = {
   /** @export */
   browser_sdl_size,
   /** @export */
+  browser_sdl_yield,
+  /** @export */
   emscripten_date_now: _emscripten_date_now,
   /** @export */
   emscripten_get_now: _emscripten_get_now,
@@ -4455,10 +4494,21 @@ function invoke_v(index) {
   }
 }
 
-function invoke_vi(index,a1) {
+function invoke_vii(index,a1,a2) {
   var sp = stackSave();
   try {
-    getWasmTableEntry(index)(a1);
+    getWasmTableEntry(index)(a1,a2);
+  } catch(e) {
+    stackRestore(sp);
+    if (!(e instanceof EmscriptenEH)) throw e;
+    _setThrew(1, 0);
+  }
+}
+
+function invoke_viii(index,a1,a2,a3) {
+  var sp = stackSave();
+  try {
+    getWasmTableEntry(index)(a1,a2,a3);
   } catch(e) {
     stackRestore(sp);
     if (!(e instanceof EmscriptenEH)) throw e;
@@ -4470,6 +4520,17 @@ function invoke_iii(index,a1,a2) {
   var sp = stackSave();
   try {
     return getWasmTableEntry(index)(a1,a2);
+  } catch(e) {
+    stackRestore(sp);
+    if (!(e instanceof EmscriptenEH)) throw e;
+    _setThrew(1, 0);
+  }
+}
+
+function invoke_vi(index,a1) {
+  var sp = stackSave();
+  try {
+    getWasmTableEntry(index)(a1);
   } catch(e) {
     stackRestore(sp);
     if (!(e instanceof EmscriptenEH)) throw e;
@@ -4492,17 +4553,6 @@ function invoke_ii(index,a1) {
   var sp = stackSave();
   try {
     return getWasmTableEntry(index)(a1);
-  } catch(e) {
-    stackRestore(sp);
-    if (!(e instanceof EmscriptenEH)) throw e;
-    _setThrew(1, 0);
-  }
-}
-
-function invoke_viii(index,a1,a2,a3) {
-  var sp = stackSave();
-  try {
-    getWasmTableEntry(index)(a1,a2,a3);
   } catch(e) {
     stackRestore(sp);
     if (!(e instanceof EmscriptenEH)) throw e;
@@ -4580,17 +4630,6 @@ function invoke_i(index) {
   var sp = stackSave();
   try {
     return getWasmTableEntry(index)();
-  } catch(e) {
-    stackRestore(sp);
-    if (!(e instanceof EmscriptenEH)) throw e;
-    _setThrew(1, 0);
-  }
-}
-
-function invoke_vii(index,a1,a2) {
-  var sp = stackSave();
-  try {
-    getWasmTableEntry(index)(a1,a2);
   } catch(e) {
     stackRestore(sp);
     if (!(e instanceof EmscriptenEH)) throw e;
