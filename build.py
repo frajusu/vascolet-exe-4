@@ -3,10 +3,57 @@ import hashlib
 import json
 import pathlib
 import shutil
+import urllib.request
 import zipfile
 from native.create_openal_shim import create_shim
 
 ROOT = pathlib.Path(__file__).resolve().parent
+
+
+def hydrate_aot_runtime(dist):
+    config = json.loads((dist / 'game.json').read_text(encoding='utf-8'))
+    active_version = config.get('aotVersion', '').rsplit('-', 1)[-1]
+    runtime_root = dist / 'aot' / 'runtime'
+    runtime_dirs = [path for path in runtime_root.iterdir()
+                    if path.is_dir() and path.name.startswith(active_version)]
+    if len(runtime_dirs) != 1:
+        raise RuntimeError(f'Expected one active AOT runtime directory, found {len(runtime_dirs)}')
+    runtime = runtime_dirs[0]
+    missing = [name for name in ['worker-runtime.wasm', 'worker-runtime.data']
+               if not (runtime / name).is_file() or (runtime / name).stat().st_size == 0]
+    if not missing:
+        return
+
+    tag = f'runtime-g4-{runtime.name}'
+    request = urllib.request.Request(
+        f'https://api.github.com/repos/frajusu/{ROOT.name}/releases/tags/{tag}',
+        headers={'Accept': 'application/vnd.github+json', 'User-Agent': 'vascolet-pages-build'},
+    )
+    with urllib.request.urlopen(request, timeout=60) as response:
+        release = json.load(response)
+    assets = {asset['name']: asset for asset in release.get('assets', [])}
+    for name in missing:
+        asset = assets.get(name)
+        if not asset or not asset.get('browser_download_url'):
+            raise RuntimeError(f'Temporary runtime Release is missing {name}')
+        target = runtime / name
+        temporary = target.with_name(target.name + '.download')
+        digest = hashlib.sha256()
+        size = 0
+        try:
+            with urllib.request.urlopen(asset['browser_download_url'], timeout=300) as source:
+                with temporary.open('wb') as output:
+                    while chunk := source.read(1024 * 1024):
+                        output.write(chunk)
+                        digest.update(chunk)
+                        size += len(chunk)
+            expected_digest = asset.get('digest', '')
+            if size != asset['size'] or (expected_digest and expected_digest != f'sha256:{digest.hexdigest()}'):
+                raise RuntimeError(f'Temporary runtime asset failed integrity check: {name}')
+            temporary.replace(target)
+        finally:
+            if temporary.exists():
+                temporary.unlink()
 
 
 def main():
@@ -14,6 +61,7 @@ def main():
     if dist.exists():
         shutil.rmtree(dist)
     shutil.copytree(ROOT / 'site', dist)
+    hydrate_aot_runtime(dist)
     parts = sorted(dist.glob('game.zip.[0-9][0-9][0-9]'))
     if parts:
         with (dist / 'game.zip').open('wb') as output:

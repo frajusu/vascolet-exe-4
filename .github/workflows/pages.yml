@@ -3,29 +3,48 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-permissions:
-  contents: read
-  actions: read
-  pages: write
-  id-token: write
 concurrency:
   group: pages
   cancel-in-progress: true
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: read
+    outputs:
+      runtime_release_tag: ${{ steps.runtime.outputs.tag }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Identify temporary runtime release
+        id: runtime
+        run: |
+          tag="$(python -c 'import json,pathlib; c=json.loads(pathlib.Path("site/game.json").read_text()); v=c["aotVersion"].rsplit("-",1)[-1]; d=[p.name for p in pathlib.Path("site/aot/runtime").iterdir() if p.is_dir() and p.name.startswith(v)]; assert len(d)==1; print("runtime-g4-"+d[0])')"
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
       - run: python build.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - uses: actions/deploy-pages@v4
         id: deployment
+      - name: Delete temporary runtime release
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ needs.build.outputs.runtime_release_tag }}
+        run: gh release delete "$RELEASE_TAG" --repo "$GITHUB_REPOSITORY" --yes --cleanup-tag
